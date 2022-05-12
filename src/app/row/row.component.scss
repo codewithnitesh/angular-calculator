@@ -1,0 +1,18 @@
+:host {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-span-2-column {
+  flex: 2 1 auto;
+}
+
+.button {
+  padding: 20px;
+  margin: 10px;
+  width: 80px;
+  font-size: 20px;
+  cursor: pointer;
+}

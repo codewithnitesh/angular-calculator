@@ -1,0 +1,11 @@
+<ng-container *ngFor="let button of buttons">
+  <button
+    class="button"
+    id="button.id"
+    class="{{ button.classes }}"
+    (click)="buttonClicked(button)"
+    [disabled]="button.disabled"
+  >
+    {{ button?.text }}
+  </button>
+</ng-container>

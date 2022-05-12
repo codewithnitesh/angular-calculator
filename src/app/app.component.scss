@@ -1,0 +1,31 @@
+section {
+  width: 400px;
+  margin: auto;
+}
+
+.expression {
+  width: 96%;
+  font-size: 20px;
+  padding: 5px;
+  text-align: right;
+  border: 1px solid rgb(59, 59, 59);
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 6px;
+}
+
+.message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: red;
+}
+
+.flex-span-2-column {
+  flex: 2 1 auto;
+}
